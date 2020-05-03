@@ -511,14 +511,15 @@
 			}
 			function specialEffects(){
 				if(localStorage.getItem("manualColor")=="#0000fe"){
-					setTimeout(function() { createNote("Hai, sebenernya gw udah suka ama lu, mungkin lu juga udah tau itu, cuman gw pengen ngungkapin aja biar perasaan gw lega, makasih ya :)"); }, 5000);
+					setTimeout(function() { createNote("Hai, sebenernya gw udah suka ama lu, mungkin lu juga udah tau itu.
+cuman gw pengen ngungkapin aja biar perasaan gw lega, makasih ya :)"); }, 5000);
 				}
 				else if(localStorage.getItem("manualColor")=="#000000"){
 					setTimeout(function() { createNote("i love you, buat kamu yang baca:v"); }, 5000);
 				}
 			}
 			function createNote(isi){
-				$(".jam").css("font-size","30pt").css("bottom","calc( 50% - 50px )");
+				$(".jam").css("font-size","30pt").css("bottom","calc( 50% - 50px ).css("text-indent","20px");
 				$(".ucapan").css("opacity","0");
 				$(".quotes").css("opacity","0");
 				$(".quotes").css("opacity","0");
